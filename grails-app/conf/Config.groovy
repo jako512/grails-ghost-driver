@@ -22,3 +22,10 @@ log4j = {
 
     warn   'org.mortbay.log'
 }
+
+grails.app.context = '/'
+
+grails.config.locations = [
+	"file:${userHome}/.grails/config.groovy",
+	"file:${userHome}/.grails/${appName}/config.groovy"
+]
